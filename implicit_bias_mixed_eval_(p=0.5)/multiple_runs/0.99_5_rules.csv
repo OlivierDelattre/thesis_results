@@ -1,0 +1,6 @@
+IF extra_degree!=False THEN Class=hire ,[669.0; 3244.0],[264; 405; 2839],{0.0: 2327; 1.0: 1181},(-0.0026790318282056136;0.20365464)
+IF potential<=0.7841566426040127 AND experience<=39.0 AND german_speaking<=0.14814814814814814 AND french_speaking<=0.5555555555521604 AND dutch_speaking<=0.5 THEN Class=reject ,[5418.0; 107.0],[5311; 107; 0],{0.0: 3185; 1.0: 2233},(-1.4460799198631746e-05;0.007198964059846695)
+IF experience<=22.0 AND french_speaking>=0.23255813953488372 AND french_speaking<=0.599999999986 THEN Class=reject ,[754.0; 26.0],[735; 19; 7],{0.0: 446; 1.0: 315},(-0.0004011368759591627;0.03042802797804197)
+IF degree!=False AND french_speaking>=0.21212121212121213 AND experience>=11.0 AND potential>=0.05000144766077304 THEN Class=hire ,[29.0; 65.0],[13; 16; 49],{0.0: 53; 1.0: 25},(-0.0028214365758322257;0.15591666751727587)
+IF age>=23.0 THEN Class=reject ,[235.0; 0.0],[235; 0; 0],{0.0: 140; 1.0: 95},(0;1e-06)
+IF TRUE THEN Class=reject ,[7105.0; 3442.0],[6558; 547; 2895],{0.0: 6151; 1.0: 3849},(0;1e-06)
