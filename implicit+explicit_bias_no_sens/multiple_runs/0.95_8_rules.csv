@@ -1,0 +1,8 @@
+IF extra_degree!=False AND experiences<=0.3542553191489361 THEN Class=hire ,[1558.0; 3415.0],[78; 1480; 1935],{0.0: 2366; 1.0: 1127},(0.16538294)
+IF potential<=0.7665602270358545 THEN Class=reject ,[5250.0; 1552.0],[3698; 1552; 0],{0.0: 3012; 1.0: 2238},(0.0008679520434176916)
+IF language_english==False THEN Class=reject ,[874.0; 19.0],[855; 19; 0],{0.0: 488; 1.0: 386},(0.0038720318167348006)
+IF experience<=21.0 AND extra_degree==False AND potential>=0.766740394904219 THEN Class=reject ,[311.0; 32.0],[279; 32; 0],{0.0: 176; 1.0: 135},(0.014840921950521153)
+IF language_german==False AND potential<=0.8827040477656078 THEN Class=reject ,[43.0; 12.0],[31; 12; 0],{0.0: 27; 1.0: 16},(0.058063271604938266)
+IF degree!=False AND dutch_speaking<=0.3235294117647059 AND potential<=0.9326169306956876 AND potential<=0.9163911154229302 AND dutch_speaking>=0.225 THEN Class=hire ,[5.0; 11.0],[0; 5; 6],{0.0: 11},(0.22235434007134364)
+IF extra_degree==False THEN Class=reject ,[17.0; 0.0],[17; 0; 0],{0.0: 10; 1.0: 7},(0.05246913580246916)
+IF TRUE THEN Class=reject ,[8058.0; 5042.0],[4958; 3100; 1942],{0.0: 6091; 1.0: 3909},(1e-06)
