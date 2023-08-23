@@ -1,0 +1,4 @@
+IF extra_degree!=False THEN Class=hire ,[3134.0; 3864.0],[10; 3124; 740],{0.0: 2386; 1.0: 1488},(0.16786766)
+IF extra_degree==False AND english_speaking>=0.4999999999937501 THEN Class=hire ,[4.0; 4.0],[0; 4; 0],{0.0: 4},(0.00046354874973473056)
+IF age>=18.0 THEN Class=reject ,[6122.0; 1773.0],[4349; 1773; 0],{0.0: 3787; 1.0: 2335},(1e-06)
+IF TRUE THEN Class=reject ,[9260.0; 5641.0],[4359; 4901; 740],{0.0: 6177; 1.0: 3823},(1e-06)

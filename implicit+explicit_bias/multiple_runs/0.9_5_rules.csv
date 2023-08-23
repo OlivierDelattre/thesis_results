@@ -1,0 +1,5 @@
+IF degree!=False AND degrees<=0.8 AND experiences<=0.2574468085106382 AND potential<=0.8005601892206263 THEN Class=hire ,[4771.0; 5026.0],[204; 4567; 459],{0.0: 3413; 1.0: 1817},(0.1261446)
+IF extra_degree==False THEN Class=reject ,[4108.0; 1571.0],[2539; 1569; 2],{0.0: 2290; 1.0: 1820},(0.07544796487480718)
+IF nationality!=0 THEN Class=reject ,[242.0; 184.0],[59; 183; 1],{1.0: 243},(0.2316666666666667)
+IF age>=20.0 THEN Class=hire ,[0.0; 417.0],[0; 0; 417],{0.0: 417},(1e-06)
+IF TRUE THEN Class=reject ,[9121.0; 7198.0],[2802; 6319; 879],{0.0: 6120; 1.0: 3880},(1e-06)

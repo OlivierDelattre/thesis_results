@@ -1,0 +1,7 @@
+IF extra_degree!=False AND experiences<=0.37021276595744684 THEN Class=hire ,[1600.0; 3708.0],[171; 1429; 2279],{0.0: 2447; 1.0: 1432},(-8.497518615568911e-05;0.14484825)
+IF experiences<=0.22765957446808507 AND extra_degrees<=0.9 THEN Class=reject ,[5091.0; 2025.0],[3066; 2025; 0],{0.0: 3143; 1.0: 1948},(-2.7128231546436066e-06;0.0010870470080304195)
+IF extra_degree==False AND experience<=32.0 AND german_speaking<=0.12195121951219512 AND experiences<=0.3882978723404255 THEN Class=reject ,[888.0; 68.0],[820; 68; 0],{0.0: 550; 1.0: 338},(-1.3811091951781984e-05;0.006696201338486207)
+IF extra_degree==False AND english_speaking<=0.3235294117647059 AND experiences>=0.22978723404255316 THEN Class=reject ,[99.0; 13.0],[86; 13; 0],{0.0: 62; 1.0: 37},(-1.2203900978113857e-06;0.03927792104741125)
+IF degree!=False AND english_speaking<=0.358974358974359 AND age<=59.0 THEN Class=hire ,[6.0; 10.0],[4; 2; 8],{0.0: 10; 1.0: 4},(-0.00787775287163095;0.14926987560843702)
+IF age>=27.0 THEN Class=reject ,[29.0; 1.0],[28; 1; 0],{0.0: 17; 1.0: 12},(0;1e-06)
+IF TRUE THEN Class=reject ,[7713.0; 5825.0],[4175; 3538; 2287],{0.0: 6229; 1.0: 3771},(0;1e-06)

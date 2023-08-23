@@ -1,0 +1,6 @@
+IF extra_degree!=False THEN Class=hire ,[647.0; 3230.0],[295; 352; 2878],{0.0: 2383; 1.0: 1142},(0.20170474999999996)
+IF extra_degrees<=0.75 AND experience<=40.0 THEN Class=reject ,[5437.0; 144.0],[5295; 142; 2],{0.0: 3261; 1.0: 2178},(0.006826254826254838)
+IF experience<=19.0 AND age<=58.0 THEN Class=reject ,[686.0; 3.0],[684; 2; 1],{0.0: 388; 1.0: 299},(0.03295922094184636)
+IF degree!=False AND experience>=19.0 AND potential>=0.15043481008818854 AND experiences<=0.3170212765957447 AND dutch_speaking>=0.10526315789473684 THEN Class=hire ,[36.0; 64.0],[24; 12; 52],{0.0: 57; 1.0: 31},(0.13714173118447304)
+IF age>=38.0 THEN Class=reject ,[261.0; 0.0],[261; 0; 0],{0.0: 181; 1.0: 80},(1e-06)
+IF TRUE THEN Class=reject ,[7067.0; 3441.0],[6559; 508; 2933],{0.0: 6270; 1.0: 3730},(1e-06)

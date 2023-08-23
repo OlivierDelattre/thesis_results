@@ -1,0 +1,5 @@
+IF extra_degree!=False THEN Class=hire ,[409.0; 3584.0],[194; 215; 3369],{0.0: 2333; 1.0: 1445},(0.22103192)
+IF german_speaking<=0.25 THEN Class=reject ,[6206.0; 50.0],[6156; 50; 0],{0.0: 3766; 1.0: 2440},(0.00016030673088855647)
+IF married!=False AND degree!=False THEN Class=hire ,[1.0; 2.0],[0; 1; 1],{0.0: 2},(0.109375)
+IF age>=26.0 THEN Class=reject ,[14.0; 0.0],[14; 0; 0],{1.0: 8; 0.0: 6},(1e-06)
+IF TRUE THEN Class=reject ,[6630.0; 3636.0],[6364; 266; 3370],{0.0: 6107; 1.0: 3893},(1e-06)
